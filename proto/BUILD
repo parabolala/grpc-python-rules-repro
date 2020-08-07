@@ -10,7 +10,7 @@ proto_library(
     srcs = [
         "foo.proto",
     ],
-    #import_prefix = "repro",
+    import_prefix = "repro",
 )
 
 py_proto_library(

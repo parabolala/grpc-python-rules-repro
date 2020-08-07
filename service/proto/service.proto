@@ -2,7 +2,7 @@ syntax = "proto3";
 
 package service;
 
-import "proto/foo.proto";
+import "repro/proto/foo.proto";
 
 service FooService {
     rpc GetFoo(foo.Foo) returns (foo.Foo);
